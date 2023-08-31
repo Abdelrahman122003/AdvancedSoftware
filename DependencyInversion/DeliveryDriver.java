@@ -13,5 +13,8 @@ package DependencyInversion;
 // **solve problem with create interface DeliveryServices and implement it in DeliveryDriver
 public class DeliveryDriver implements DeliveryServices {
 
-    public void deliveryProduct(Product p){}
+    public void deliveryProduct(Product p)
+    {
+        System.out.println("done");
+    }
 }

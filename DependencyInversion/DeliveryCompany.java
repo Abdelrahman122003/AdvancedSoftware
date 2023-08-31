@@ -1,5 +1,7 @@
 package DependencyInversion;
 
+
+// low level => DeliveryDriver and heigh level => DeliveryCompany these depend on DeliveryServices (abstraction)
 public class DeliveryCompany
 {
     private DeliveryServices deliverySer;
