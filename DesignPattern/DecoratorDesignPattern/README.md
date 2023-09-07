@@ -62,7 +62,7 @@ Classes should be open for extension but closed for modification.<br>
 
 ## Do you have a question for me now?
 
-How do we place a special order?
+How do we place a special order?<br>
 So, let is see this image:
 
 ![Alt text](image-2.png)
@@ -72,4 +72,4 @@ So, let is see this image:
 ans: In cost() and getDescription() methods.<br>
 --In the Cost() method, return the cost of the Condiment and the cost() of the Beverage passed as a parameter .<br>
 -- getDescription() method is similar to the cost() method.<br>
--- You can test this in the main function and run the code.<br>
+-- You can test this in the main class and run the code.<br>
