@@ -1,9 +1,9 @@
 
-public class Moka extends CondimentDecorator{
+public class Mocha extends CondimentDecorator{
     Beverage beverage;
 
-    public Moka(Beverage b) {
-        Description = ", Moka";
+    public Mocha(Beverage b) {
+        Description = ", Mocha";
         this.beverage = b;
     }
     @Override
