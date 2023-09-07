@@ -7,23 +7,23 @@ Decorators provide a flexible alternative to subclassing for extending functiona
 
 ## The reason to use Decorator Design pattern:
 
-let is take an example (Coffee shop):
-This shop has some beverages: Espresso, Decaf, Dark Roast, House Blend, and Tea.
-You can order Tea, Decaf coffee, Espresso, and so on.
-Till now, there has been no problem with the System.
-This Shop will be add some condiments: Milk, Mocha, Soy and Whip.
-The customer placed a special order for an Espresso covered with milk, mocha, and soy.
-Another CUstomer ......... Espresso cover with double Milk , double mocha and double Whip.
-Another CUstomer ......... Decaf cover with double Milk and soy.
+let is take an example (Coffee shop):<br>
+This shop has some beverages: Espresso, Decaf, Dark Roast, House Blend, and Tea.<br>
+You can order Tea, Decaf coffee, Espresso, and so on.<br>
+Till now, there has been no problem with the System.<br>
+This Shop will be add some condiments: Milk, Mocha, Soy and Whip.<br>
+The customer placed a special order for an Espresso covered with milk, mocha, and soy.<br>
+Another CUstomer ......... Espresso cover with double Milk , double mocha and double Whip.<br>
+Another CUstomer ......... Decaf cover with double Milk and soy.<br>
 And so on...
-The number of probability orders has increased significantly.
-We have a big problem there.
-In this case, create a class for a new special order so UML Diagram:
+The number of probability orders has increased significantly.<br>
+We have a big problem there.<br>
+In this case, create a class for a new special order so UML Diagram:<br>
 
 ![Alt text](image-1.png)
 
-Decorator Pattern will solve this problem.
-So, it is necessary to use the Decorator Design Pattern.
+Decorator Pattern will solve this problem.<br>
+So, it is necessary to use the Decorator Design Pattern.<br>
 
 ## Some notes about this pattern:
 
