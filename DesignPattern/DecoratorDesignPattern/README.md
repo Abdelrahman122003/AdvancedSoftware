@@ -60,7 +60,7 @@ Classes should be open for extension but closed for modification.<br>
 -- We create a class called CondimentDecorator that extends the Beverage class and changes getDescription() from a concrete method to an abstract method.<br>
 -- Each of these condiments (Milk, Mocha, Soy, and Whip) extends the CondimentDecorator class, implements the cost() method, resets the Description variable with its name, and creates an instance of Beverage.<br>
 
-<!-- ** Do you have a question for me now? -->
+## Do you have a question for me now?
 
 How do we place a special order?
 So, let is see this image:
