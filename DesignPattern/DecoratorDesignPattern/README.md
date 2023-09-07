@@ -7,7 +7,7 @@ Decorators provide a flexible alternative to subclassing for extending functiona
 
 ## The reason to use Decorator Design pattern:
 
-let is take an example (Coffee shop):<br>
+Let's take an example (Coffee shop):<br>
 This shop has some beverages: Espresso, Decaf, Dark Roast, House Blend, and Tea.<br>
 You can order Tea, Decaf coffee, Espresso, and so on.<br>
 Till now, there has been no problem with the System.<br>
@@ -63,13 +63,13 @@ Classes should be open for extension but closed for modification.<br>
 ## Do you have a question for me now?
 
 How do we place a special order?<br>
-So, let is see this image:
+So, Let's see this image:
 
 ![Alt text](image-2.png)
 
 -- This is similar to recursion, where a group of calls is stored in a stack, with the first call at the bottom and the last call at the top, and the calls are implemented from top to bottom.<br>
 -- Where is recursive in this code?<br>
 ans: In cost() and getDescription() methods.<br>
---In the Cost() method, return the cost of the Condiment and the cost() of the Beverage passed as a parameter .<br>
+-- In the Cost() method, return the cost of the Condiment and the cost() of the Beverage passed as a parameter .<br>
 -- getDescription() method is similar to the cost() method.<br>
 -- You can test this in the main class and run the code.<br>
