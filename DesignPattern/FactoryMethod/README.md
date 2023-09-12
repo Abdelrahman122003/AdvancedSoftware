@@ -1,16 +1,16 @@
-# Simple Factory And Factory Method
+# Factory Method
 
 ## Definition of Factory Method:
 
 Define an interface for creating an object, but let subclasses decide
 which class to instantiate. Factory Method lets a class defer instantiation to the subclasses.
 
-## The reason to use factory method:
+## The reason to use factories:
 
 This pattern encapsulate object creation
 and lead to more decoupled, flexible designs.
 
-## The Problem that forced us to use factory method:
+## The Problem that forced us to use factories:
 
 Let's consider a pizza store where we offer a variety of pizza types, including cheese, Greek, clam, and veggie. We also have a method called orderPizza(). Based on the customer's order, we create an object representing the specific type of pizza that the customer has requested.
 
@@ -47,16 +47,17 @@ dependencies on concrete types and to strive for abstractions.<br>
 -- Factories are a powerful technique for coding to
 abstractions, not concrete classes.<br>
 
-## some principles about this pattern:
+## some principles about these Factories:
 
-Factory Method Depend on abstraction.Do not
-depend on concrete classes.
+Factories rely on abstraction and should not rely on concrete classes.
 
-## We have two types of factories:
+## We have Three types of factories:
 
-### 1)Simple factory
+### 1)Simple factory()
 
 ### 2)Method factory
+
+### 3)Abstract factory
 
 ## let us talk about difference between simple factory and method factory:
 
@@ -90,6 +91,8 @@ So, the difference between them is that a simple factory is a concrete class (a 
 -- Each style has different various pizza types (cheese, pepperoni, clam and veggie).
 -- we have abstract class pizza that has methods prepare, bake, cut and box.
 -- We have various pizza types that extend the Pizza class and override all of its methods in their respective classes.
+
+## I will provide an explanation of the abstract factory pattern in a separate directory
 
 ## How to avoid OO Designs that violate the Dependency Inversion Principle?
 
