@@ -53,7 +53,7 @@ Factories rely on abstraction and should not rely on concrete classes.
 
 ## We have Three types of factories:
 
-### 1)Simple factory()
+### 1)Simple factory
 
 ### 2)Method factory
 
@@ -73,9 +73,9 @@ So, the difference between them is that a simple factory is a concrete class (a 
 
 ### Details About PizzaStore:
 
--- We have a class named PizzaStore that instantiates an object of PizzaSimpleFactory. Within this class, there's a method called createOrder(String type). In this method, we create a new object based on the type of pizza the customer has ordered. We then return this object to pizzaOrder() and proceed to call the prepare, bake, cut, and box methods.
--- We have a PizzaSimpleFactory class that contains all types of pizza, allowing us to modify the class by adding or deleting different kinds of pizza as needed.
--- we have abstract class pizza that has methods prepare, bake, cut and box.
+-- We have a class named PizzaStore that instantiates an object of PizzaSimpleFactory. Within this class, there's a method called createOrder(String type). In this method, we create a new object based on the type of pizza the customer has ordered. We then return this object to pizzaOrder() and proceed to call the prepare, bake, cut, and box methods.<br>
+-- We have a PizzaSimpleFactory class that contains all types of pizza, allowing us to modify the class by adding or deleting different kinds of pizza as needed.<br>
+-- we have abstract class pizza that has methods prepare, bake, cut and box.<br>
 -- We have various pizza types that extend the Pizza class and override all of its methods in their respective classes.
 
 ## Let's take an example(Pizza Store) of the factory method:
@@ -86,10 +86,10 @@ So, the difference between them is that a simple factory is a concrete class (a 
 
 ### Details About Pizza store using the factory method:
 
--- We have an abstract class named PizzaStore that has two methods: orderPizza() (concrete) and createPizza() (an abstract method that is overridden in classes that extend from PizzaStore). Within this class, there's a method called createOrder(String type). In this method, we create a new object based on the type of pizza the customer has ordered. We then return this object to pizza Object pizzaOrder() and proceed to call the prepare, bake, cut, and box methods.
--- We offer two styles: New York style and Chicago style, which extend from the PizzaStore class and override the createMethod() function.
--- Each style has different various pizza types (cheese, pepperoni, clam and veggie).
--- we have abstract class pizza that has methods prepare, bake, cut and box.
+-- We have an abstract class named PizzaStore that has two methods: orderPizza() (concrete) and createPizza() (an abstract method that is overridden in classes that extend from PizzaStore). Within this class, there's a method called createOrder(String type). In this method, we create a new object based on the type of pizza the customer has ordered. We then return this object to pizza Object pizzaOrder() and proceed to call the prepare, bake, cut, and box methods.<br>
+-- We offer two styles: New York style and Chicago style, which extend from the PizzaStore class and override the createMethod() function.<br>
+-- Each style has different various pizza types (cheese, pepperoni, clam and veggie).<br>
+-- we have abstract class pizza that has methods prepare, bake, cut and box.<br>
 -- We have various pizza types that extend the Pizza class and override all of its methods in their respective classes.
 
 ## I will provide an explanation of the abstract factory pattern in a separate directory
