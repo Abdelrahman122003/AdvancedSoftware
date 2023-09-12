@@ -64,7 +64,7 @@ depend on concrete classes.
 
 So, the difference between them is that a simple factory is a concrete class (a class that has factory method), whereas a method factory implements an abstract class (creator).
 
-## Let's take an example(Pizza Store) of the factory method(simple factory):
+## Let's take an example(Pizza Store) of the simple factory:
 
 ### UML Diagram:
 
@@ -77,7 +77,7 @@ So, the difference between them is that a simple factory is a concrete class (a 
 -- we have abstract class pizza that has methods prepare, bake, cut and box.
 -- We have various pizza types that extend the Pizza class and override all of its methods in their respective classes.
 
-## Let's take an example(Pizza Store) of the factory method(factory method):
+## Let's take an example(Pizza Store) of the factory method:
 
 ### UML Diagram:
 
