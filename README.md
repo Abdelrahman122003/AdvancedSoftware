@@ -44,3 +44,17 @@ In software engineering, behavioral design patterns are design patterns that ide
 -- Chain of Responsibility.<br>
 -- Mediator.<br>
 -- Template Method.<br>
+
+## We want to tell you where I study design patterns:
+
+### Books:
+
+Head of first
+
+### videos:
+
+Videos with Arabic content:<br>
+https://www.youtube.com/playlist?list=PLd-dOEgzBpGnt3GuEszo_piQq52XSqAmj
+
+Videos with English content:<br>
+https://www.youtube.com/playlist?list=PLCOO6j3cDu94FP8pMPOigpyy0XoQkdKBW
