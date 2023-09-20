@@ -10,6 +10,14 @@ The Adapter Pattern converts the interface of a class into another interface the
 -- Classes with different implementation but do the same job.<br>
 -- Adapting something(adaptee) to be suitable for doing the work in general without changing the client or changing the old interface.<br>
 
+## Some notes about this pattern:
+
+-- When you need to use an existing class and its interface is not the one you need, use an adapter.<br>
+-- An adapter changes an interface into one a client expects.<br>
+-- Implementing an adapter may require little work or a great deal of work depending on the size and complexity of the target interface.<br>
+-- There are two forms of the Adapter Pattern: object and class adapters. Class adapters require multiple inheritance.<br>
+-- An adapter wraps an object to change its interface.<br>
+
 ## An illustrative diagram for this pattern:
 
 ![Alt text](image.png)
