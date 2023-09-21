@@ -36,6 +36,6 @@ The Facade Pattern provides a unified interface to a set of interfaces in a subs
 3. Any object the method creates or instantiates
 4. Any components of the object
 
-### let us take example to clarify these Points(1->4) about this principle:
+### Let's use an example to clarify these points (1-4) about this principle:
 
 ![Alt text](LeastKnowledge.png)
